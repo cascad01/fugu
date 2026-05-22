@@ -2,8 +2,8 @@
 
 ```shell
 # сборка бинарника
-go build -o ./bin/gengetter ./cmd/getter-gen/main.go
+go build -o ./bin/fugu ./cmd/fugu/main.go
 
 # будет сгенерирован файл в формате {pkg_name}_getters.go
-./bin/gengetter ./example
+./bin/fugu ./example
 ```
